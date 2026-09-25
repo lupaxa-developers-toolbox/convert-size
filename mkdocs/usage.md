@@ -1,6 +1,6 @@
 # Usage
 
-## Convert a size
+## Convert a Size
 
 `convert_size()` is the usual entry point. It uses IEC units unless
 `si_units=True`.
@@ -29,7 +29,7 @@ convert_size_si(1, "TB", "GB")
 
 A size of `0` returns `0.0` without looking up the units.
 
-## Bits, nibbles, and bytes
+## Bits, Nibbles, and Bytes
 
 Within one family, bit, nibble, and byte codes convert through 8 bits per
 byte and 4 bits per nibble:
@@ -53,7 +53,7 @@ convert_size(1, "kB", "kbit", si_units=True)
 
 `nibble` has no SI or IEC prefixes. It is valid in both families.
 
-## Look up a unit name
+## Look Up a Unit Name
 
 ```python
 from lupaxa.convert_size import get_name_from_code
@@ -71,7 +71,7 @@ get_name_from_code("Kibit")
 Codes are matched case-insensitively (`kib`, `KIB`, and `KiB` are the same).
 The stored SI kilo symbol is `kB`, which is the SI spelling.
 
-## Invalid units
+## Invalid Units
 
 Unknown abbreviations raise `ValueError` and list the valid codes for that
 family. `kB` is not valid in IEC mode; `KiB` is not valid in SI mode.

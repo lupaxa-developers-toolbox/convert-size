@@ -1,4 +1,4 @@
-# Getting started
+# Getting Started
 
 ## Requirements
 
@@ -23,7 +23,7 @@ The PyPI name is `lupaxa-convert-size`. The import path is
 `lupaxa.convert_size`. `lupaxa` is a namespace package — there is no
 `lupaxa/__init__.py`.
 
-### From source (development)
+### From Source (Development)
 
 Editable install with dev extras (includes the MkDocs pins):
 
@@ -39,7 +39,7 @@ After makefile-skills are installed:
 make mkdocs-serve
 ```
 
-## First conversions
+## First Conversions
 
 ```python
 from lupaxa.convert_size import convert_size, get_name_from_code
@@ -57,7 +57,7 @@ A walkthrough of the same API lives in `demo.py` at the repository root
 python demo.py
 ```
 
-## Makefile helpers
+## Makefile Helpers
 
 ```bash
 make init                 # clone makefile-skills into .makefiles/

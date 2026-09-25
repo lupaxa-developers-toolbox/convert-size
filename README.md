@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center">convert-size</h1>
+<h1 align="center">Convert Size</h1>
 
 Convert file sizes between IEC (binary, 1024) and SI (decimal, 1000)
 units, including bits, nibbles, and bytes.

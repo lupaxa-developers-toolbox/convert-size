@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "lupaxa-convert-size"
 dynamic = ["version"]
 description = "Convert file sizes between IEC (binary) and SI (decimal) units, including bits, nibbles, and bytes."
-readme = "README-PYPI.md"
+readme = "README.md"
 license = { file = "LICENCE" }
 requires-python = ">=3.10"
 
@@ -62,7 +62,6 @@ path = "src/lupaxa/convert_size/version.py"
 include = [
   "src/**",
   "README.md",
-  "README-PYPI.md",
   "LICENCE",
 ]
 

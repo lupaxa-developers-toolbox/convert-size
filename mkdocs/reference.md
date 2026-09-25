@@ -30,7 +30,7 @@ Public names are exported from `lupaxa.convert_size`.
 There is no console script and no `python -m lupaxa.convert_size` entry
 point.
 
-## IEC byte units
+## IEC Byte Units
 
 | Code  | Name      | Scaler from bytes |
 | ----- | --------- | ----------------- |
@@ -48,7 +48,7 @@ point.
 
 `RiB` / `QiB` are the 2022 IEC prefixes (robi / quebi).
 
-## IEC bit units
+## IEC Bit Units
 
 | Code    | Name     | Scaler from bits |
 | ------- | -------- | ---------------- |
@@ -64,7 +64,7 @@ point.
 | `Ribit` | Robibit  | 1024⁹            |
 | `Qibit` | Quebibit | 1024¹⁰           |
 
-## SI byte units
+## SI Byte Units
 
 | Code | Name       | Scaler from bytes |
 | ---- | ---------- | ----------------- |
@@ -83,7 +83,7 @@ point.
 `kB` is the SI spelling (prefix `k`). `RB` / `QB` are the 2022 SI prefixes
 (ronna / quetta).
 
-## SI bit units
+## SI Bit Units
 
 | Code   | Name      | Scaler from bits |
 | ------ | --------- | ---------------- |

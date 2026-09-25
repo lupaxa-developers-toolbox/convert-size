@@ -1,4 +1,4 @@
-# convert-size
+# Convert Size
 
 Convert file sizes between IEC (binary, 1024) and SI (decimal, 1000) units,
 including bits, nibbles, and bytes.
@@ -32,7 +32,7 @@ get_name_from_code("MiB")
 `convert-size` is a library only. There is no console script and no
 `python -m` entry point.
 
-## Unit families
+## Unit Families
 
 | Family | Kind    | Scaler | Abbreviations                                                                                   |
 | ------ | ------- | ------ | ----------------------------------------------------------------------------------------------- |
@@ -49,10 +49,3 @@ so a call may mix bit, nibble, and byte codes in the same family.
 
 The 2022 prefixes are included: SI `RB` / `QB` / `Rbit` / `Qbit` and IEC
 `RiB` / `QiB` / `Ribit` / `Qibit`.
-
-## Next steps
-
-- [Getting started](getting-started.md) — install and first conversions
-- [Usage](usage.md) — families, names, and error handling
-- [Reference](reference.md) — public API
-- [Examples](examples.md) — copy-paste recipes
